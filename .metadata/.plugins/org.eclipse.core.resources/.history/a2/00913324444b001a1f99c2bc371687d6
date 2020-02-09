@@ -1,0 +1,26 @@
+package ObjectRepository_PageObjectModel;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage {
+
+	
+	
+	@FindBy(xpath="//a[text()='Cases']")
+	private WebElement cases;
+	
+	
+	@FindBy(xpath="//a[text()='Cases']")
+	private WebElement renewals;
+	
+	@FindBy(xpath="//a[text()='Cases']")
+	private WebElement testSummary;
+	
+	@FindBy(xpath="//a[text()='Cases']")
+	private WebElement bqp;
+
+	
+	@FindBy(xpath="//a[text()='Cases']")
+	private WebElement manageLeads;
+}

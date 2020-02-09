@@ -1,0 +1,68 @@
+package ObjectRepository_PageObjectModel;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage {
+
+	
+	
+	@FindBy(xpath="//a[text()='Cases']")
+	private WebElement cases;
+	
+	
+	@FindBy(xpath="//a[text()='Renewals']")
+	private WebElement renewals;
+	
+	@FindBy(xpath="//a[text()='Manage']")
+	private WebElement manage;
+	
+	@FindBy(xpath="//a[text()='Test Summary']")
+	private WebElement testSummary;
+	
+	@FindBy(xpath="//a[text()='BQP']")
+	private WebElement bqp;
+	
+	@FindBy(xpath="//a[text()='Manage Leads']")
+	private WebElement manageLeads;
+	
+	@FindBy(xpath="//a[text()='Support']")
+	private WebElement support;
+	
+	
+	public void clickonCases()
+	{
+		cases.click();
+	}
+	
+
+	public void clickonManage()
+	{
+		manage.click();
+	}
+	
+	public void clickonTestSummary()
+	{
+		testSummary.click();
+	}
+	
+	
+	public void clickonBQP()
+	{
+		bqp.click();
+	}
+	
+	public void clickonManageLeads()
+	{
+		manageLeads.click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
